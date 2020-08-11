@@ -15,7 +15,7 @@ foreach $line(@list_hosts){
 	   chomp($line);
 	   ( $key, $host_name, $alias,$_ip,$act ) = split (/\;/,$line);
 	   
-         $result=`centreon -u DAkulich -p ytdflyjgj -o HOST -a setinstance -v "$host_name;Central"`;
+         $result=`centreon -u Username -p Password -o HOST -a setinstance -v "$host_name;Central"`;
 		print "$host_name\t$result\n"
 		}
 	
