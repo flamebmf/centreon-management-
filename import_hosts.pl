@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
-$user_names="DAkulich";
-$user_pwd="ytdflyjgj";
+$user_names="Username";
+$user_pwd="Password";
 $num_args = $#ARGV + 1;
 
 if ($num_args != 1) {
